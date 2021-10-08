@@ -18,6 +18,9 @@ export const theme = {
     gray600: '#4E5250',
     gray700: '#555957',
     gray800: '#5E6361',
+  },
 
+  fonts: {
+    text: 'DM Sans',
   }
 }
