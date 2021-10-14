@@ -1,26 +1,49 @@
-import React from "react";
-import { View, StyleSheet, Text } from "react-native";
-import { StatusBar } from "expo-status-bar";
+import React, { useState } from "react";
+import { View, StyleSheet, Text, Button } from "react-native";
 import { Background } from "../../components/Background";
 import { styles } from "./styles";
-import { TextInput } from "react-native-gesture-handler";
 import { LongInput } from "../../components/LongInput";
+import { LongButton } from "../../components/LongButton";
+import { useNavigation } from "@react-navigation/native";
+import { theme } from "../../global/styles/theme";
 
 export function SingIn() {
+  const navigation = useNavigation();
+  const [state, setState] = useState(false);
+
+  function FocusActive() {
+    setState(true);
+  }
+
   return (
     <Background>
-      <View style={styles.title}>
-        <Text style={styles.textTitle}>
-          ReCardBus
-        </Text>
-      </View>
       <View style={styles.container}>
-        <Text style={{ marginBottom: 4 }}>CPF(SOMENTE NÚMEROS)</Text>
-        <LongInput
-        />
-        <Text style={{ marginBottom: 4 }}>SENHA</Text>
-        <LongInput
-        />
+
+        <Text style={styles.textTitle}>
+          Recardbus
+        </Text>
+        <View>
+          <Text style={styles.label}>CPF(SOMENTE NÚMEROS)</Text>
+          <LongInput
+            keyboardType="numeric"
+          />
+          <Text style={styles.label}>SENHA</Text>
+          <LongInput secureTextEntry />
+          <LongButton
+            title='Entrar'
+          />
+        </View>
+        <View style={styles.sectionNewAccount}>
+          <Text style={styles.textAgroupButton}>
+            Ainda não possui uma conta?
+          </Text>
+          <Text
+            style={styles.textButton}
+            onPress={() => navigation.navigate("AddAccount")}
+          >
+            Crie uma agora
+          </Text>
+        </View>
       </View>
     </Background>
   );

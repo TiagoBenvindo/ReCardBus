@@ -21,6 +21,8 @@ export const theme = {
   },
 
   fonts: {
-    text: 'DM Sans',
+    text400: 'DMSans_400Regular',
+    text500: 'DMSans_500Medium',
+    text700: 'DMSans_700Bold',
   }
 }
