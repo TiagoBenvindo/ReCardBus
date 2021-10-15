@@ -9,11 +9,6 @@ import { theme } from "../../global/styles/theme";
 
 export function SingIn() {
   const navigation = useNavigation();
-  const [state, setState] = useState(false);
-
-  function FocusActive() {
-    setState(true);
-  }
 
   return (
     <Background>
@@ -31,6 +26,7 @@ export function SingIn() {
           <LongInput secureTextEntry />
           <LongButton
             title='Entrar'
+            onPress={() => navigation.navigate("Home")}
           />
         </View>
         <View style={styles.sectionNewAccount}>

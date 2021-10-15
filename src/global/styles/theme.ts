@@ -4,11 +4,13 @@ export const theme = {
     whiteDefault: '#F2F7F4',
     whiteDark: '#E9F0EB',
 
-    green100: '#5DF59C',
-    green200: '#43E085',
-    green300: '#2ECD70',
-    green400: '#1AB85B',
-    green500: '#0AA349',
+    green100: '#1C3B22',
+    green200: '#2D5E35',
+    green300: '#3D8149',
+    green400: '#4EA45D',
+    green500: '#73B77F',
+    green600: '#98CAA1',
+    green700: '#BEDDC3',
 
     gray100: '#2A2B2B',
     gray200: '#323332',
@@ -19,6 +21,8 @@ export const theme = {
     gray700: '#555957',
     gray800: '#5E6361',
   },
+
+
 
   fonts: {
     text400: 'DMSans_400Regular',
