@@ -13,6 +13,5 @@ export const styles = StyleSheet.create({
     borderColor: '#E9F0EB',
     fontSize: 13,
     padding: 16,
-    marginBottom: 24,
   }
 });

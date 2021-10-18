@@ -1,5 +1,5 @@
 import React from 'react';
-import { StatusBar, Text, View } from 'react-native';
+import { StatusBar } from 'react-native';
 import { Background } from './src/components/Background';
 import { Routes } from './src/routes';
 import { DMSans_400Regular, DMSans_700Bold, DMSans_500Medium, useFonts } from '@expo-google-fonts/dm-sans';
@@ -18,7 +18,6 @@ export default function App() {
     )
   }
   return (
-
     <Background>
       <StatusBar
         barStyle='dark-content'

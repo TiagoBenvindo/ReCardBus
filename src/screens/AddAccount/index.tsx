@@ -1,5 +1,5 @@
 import React from "react";
-import { View, StyleSheet, Text, Button } from "react-native";
+import { View, Text } from "react-native";
 import { Background } from "../../components/Background";
 import { styles } from "./styles";
 import { LongInput } from "../../components/LongInput";
