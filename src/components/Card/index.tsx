@@ -2,14 +2,23 @@ import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import { styles } from "./styles";
 
-export function Card() {
+type Props = {
+  title: string,
+  content: string,
+}
+
+
+export function Card({
+  title,
+  content
+}: Props) {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>
-        Saldo atual
+        {title}
       </Text>
       <Text style={styles.content}>
-        R$39,00
+        {content}
       </Text>
     </View>
   )

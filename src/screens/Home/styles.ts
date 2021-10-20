@@ -32,6 +32,7 @@ export const styles = StyleSheet.create({
   },
   inputGroup: {
     marginTop: 24,
+    marginBottom: 16,
   },
   message: {
     fontFamily: theme.fonts.text500,
@@ -43,5 +44,37 @@ export const styles = StyleSheet.create({
     fontSize: 12,
     color: theme.colors.gray200,
     marginBottom: 4,
+  },
+  payments: {
+    flexDirection: 'row',
+    marginBottom: 20
+  },
+  paymentData: {
+    backgroundColor: theme.colors.whiteLight,
+    height: 112,
+    justifyContent: "space-between",
+    paddingLeft: 14,
+    paddingRight: 14,
+    paddingTop: 16,
+    paddingBottom: 16,
+    marginBottom: 32,
+  },
+  textRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between'
+  },
+  info: {
+    fontFamily: theme.fonts.text400,
+    fontSize: 12,
+    color: theme.colors.gray500,
+  },
+  value: {
+    fontSize: 12,
+    fontFamily: theme.fonts.text700,
+    color: theme.colors.gray100,
+  },
+  line: {
+    borderRadius: 1,
+    borderTopColor: theme.colors.whiteDark,
   }
 })
