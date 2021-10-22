@@ -19,8 +19,8 @@ export function AddAccount() {
   return (
     <Background>
       <ScrollView>
-        <View style={styles.content}>
-          <View style={styles.container}>
+        <View style={styles.container}>
+          <View style={styles.content}>
             <View style={styles.header}>
               <BorderlessButton onPress={handleGoBack}>
                 <Feather
@@ -33,34 +33,48 @@ export function AddAccount() {
                 Criar conta
               </Text>
             </View>
-            <View>
-              <Text style={styles.textInput}>
-                NOME COMPLETO
-              </Text>
-              <LongInput />
-              <Text style={styles.textInput}>
-                CPF(SOMENTE NÚMEROS)
-              </Text>
-              <LongInput keyboardType="numeric" />
-              <Text style={styles.textInput}>
-                EMAIL
-              </Text>
-              <LongInput />
-              <Text style={styles.textInput}>
-                SENHA
-              </Text>
-              <LongInput secureTextEntry />
-              <Text style={styles.textInput}>
-                CONFIRMAR SENHA
-              </Text>
-              <LongInput secureTextEntry />
-              <LongButton
-                title="Criar"
-              />
+            <View style={styles.form} >
+              <View style={styles.inputGroup}>
+                <Text style={styles.textInput}>
+                  NOME COMPLETO
+                </Text>
+                <LongInput />
+              </View>
+              <View style={styles.inputGroup}>
+                <Text style={styles.textInput}>
+                  CPF(SOMENTE NÚMEROS)
+                </Text>
+                <LongInput keyboardType="numeric" />
+              </View>
+              <View style={styles.inputGroup}>
+                <Text style={styles.textInput}>
+                  EMAIL
+                </Text>
+                <LongInput />
+              </View>
+              <View style={styles.inputGroup}>
+                <Text style={styles.textInput}>
+                  SENHA
+                </Text>
+                <LongInput secureTextEntry />
+              </View>
+              <View style={styles.inputGroup}>
+                <Text style={styles.textInput}>
+                  CONFIRMAR SENHA
+                </Text>
+                <LongInput secureTextEntry />
+              </View>
+              <View
+                style={{ marginTop: 24 }}
+              >
+                <LongButton
+                  title="Criar"
+                />
+              </View>
             </View>
           </View>
         </View>
       </ScrollView>
-    </Background>
+    </Background >
   );
 }

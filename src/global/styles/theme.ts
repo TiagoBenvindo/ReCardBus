@@ -20,6 +20,8 @@ export const theme = {
     gray600: '#4E5250',
     gray700: '#555957',
     gray800: '#5E6361',
+
+    overlay: 'rgba(0,0,0,0.4)'
   },
 
 

@@ -20,6 +20,7 @@ export const styles = StyleSheet.create({
     fontSize: 32,
     fontFamily: theme.fonts.text700,
     color: theme.colors.green100,
+    marginLeft: 8,
   },
   card: {
     marginTop: 24,
@@ -29,6 +30,7 @@ export const styles = StyleSheet.create({
   },
   form: {
     marginTop: 40,
+    marginBottom: 16,
   },
   inputGroup: {
     marginTop: 24,

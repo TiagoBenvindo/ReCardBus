@@ -1,17 +1,15 @@
-import * as firebase from 'firebase';
-
-import 'firebase/storage';
+import firebase from 'firebase';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC8fi_edisadr4N5GPdDuCBl7-scN9TqXc",
-  authDomain: "recardbus-63414.firebaseapp.com",
-  projectId: "recardbus-63414",
-  storageBucket: "recardbus-63414.appspot.com",
-  messagingSenderId: "48157042708",
-  appId: "1:48157042708:web:43178bda5055b493529f01"
+  apiKey: "AIzaSyCMOuihwQueQVGuWnc6-LOj9fknrHUTh7o",
+  authDomain: "recardbus-afbc6.firebaseapp.com",
+  projectId: "recardbus-afbc6",
+  storageBucket: "recardbus-afbc6.appspot.com",
+  messagingSenderId: "734503175977",
+  appId: "1:734503175977:web:0d5ffcefa26eb0a22ad938"
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
+firebase.initializeApp(firebaseConfig);
 
-export default app;
+export default firebase;

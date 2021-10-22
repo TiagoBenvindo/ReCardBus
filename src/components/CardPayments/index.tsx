@@ -24,7 +24,6 @@ export function CardPayments({
       {...rest}
       style={[styles.container, { backgroundColor: checked ? theme.colors.green400 : theme.colors.whiteLight }]}
     >
-
       <Text style={[styles.title, { color: checked ? theme.colors.whiteLight : theme.colors.gray400 }]}>
         {title}
       </Text>

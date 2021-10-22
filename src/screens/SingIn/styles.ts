@@ -39,5 +39,8 @@ export const styles = StyleSheet.create({
     fontFamily: theme.fonts.text700,
     color: theme.colors.green400,
     textAlign: 'center',
+  },
+  inputGroup: {
+    marginBottom: 24,
   }
 })

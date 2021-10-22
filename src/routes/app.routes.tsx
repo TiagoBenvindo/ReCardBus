@@ -7,7 +7,13 @@ import { Home } from "../screens/Home";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { MaterialIcons, MaterialCommunityIcons } from "@expo/vector-icons";
 
-const { Navigator, Screen } = createStackNavigator();
+type RootStackParamsList = {
+  SingIn: undefined;
+  Home: { userId: string };
+  AddAccount: undefined;
+}
+
+const { Navigator, Screen } = createStackNavigator<RootStackParamsList>();
 const Tab = createBottomTabNavigator();
 
 export function AppRoutes() {
@@ -21,12 +27,16 @@ export function AppRoutes() {
       }}
     >
       <Screen
-        name='SingIN'
+        name='SingIn'
         component={SingIn}
       />
       <Screen
         name='AddAccount'
         component={AddAccount}
+      />
+      <Screen
+        name='Home'
+        component={Home}
       />
     </Navigator>
   )

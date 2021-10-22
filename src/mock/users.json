@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "cpf": "12345678",
+    "name": "Tiago",
+    "email": "aiaiai@gmail.com",
+    "password": "123"
+  },
+  {
+    "id": 2,
+    "cpf": "87654321",
+    "name": "Marcos",
+    "email": "uiuiui@gmail.com",
+    "password": "123"
+  }
+]

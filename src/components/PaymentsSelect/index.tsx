@@ -9,10 +9,13 @@ type Props = {
   setPayment: (paymentId: string) => void;
   hasCheckBox?: boolean;
 }
+
+export const option = "0"
+
 export function PaymentsSelect({
   paymentSelected,
   setPayment,
-  hasCheckBox = false
+  hasCheckBox = false,
 }: Props) {
   return (
     <View

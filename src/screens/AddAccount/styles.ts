@@ -4,7 +4,7 @@ import { theme } from "../../global/styles/theme";
 
 export const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    alignItems: "center",
   },
   header: {
     width: '100%',
@@ -20,12 +20,18 @@ export const styles = StyleSheet.create({
     paddingHorizontal: 11,
   },
   content: {
-    alignItems: "center",
+    flex: 1,
   },
   textInput: {
     fontSize: 12,
     fontFamily: theme.fonts.text400,
     color: theme.colors.gray400,
-
+    marginBottom: 4,
+  },
+  inputGroup: {
+    marginBottom: 16,
+  },
+  form: {
+    marginBottom: 16,
   }
 })
