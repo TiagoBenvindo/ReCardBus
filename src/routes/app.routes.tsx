@@ -7,11 +7,13 @@ import { Home } from "../screens/Home";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { MaterialIcons, MaterialCommunityIcons } from "@expo/vector-icons";
 
-type RootStackParamsList = {
+export type RootStackParamsList = {
   SingIn: undefined;
   Home: { userId: string };
   AddAccount: undefined;
 }
+
+
 
 const { Navigator, Screen } = createStackNavigator<RootStackParamsList>();
 const Tab = createBottomTabNavigator();
@@ -36,7 +38,7 @@ export function AppRoutes() {
       />
       <Screen
         name='Home'
-        component={Home}
+        component={TabBarRoutes}
       />
     </Navigator>
   )
@@ -47,9 +49,9 @@ export function TabBarRoutes() {
     <Tab.Navigator
       screenOptions={({ route }) => ({
         headerShown: false,
-        tabBarActiveBackgroundColor: theme.colors.green100,
-        tabBarInactiveBackgroundColor: theme.colors.green100,
         tabBarActiveTintColor: theme.colors.whiteLight,
+        tabBarStyle: { height: 64, backgroundColor: theme.colors.green100, paddingTop: 15 },
+        tabBarLabelStyle: { paddingBottom: 13, },
         tabBarIcon: ({ color, size }) => {
           let icon;
 

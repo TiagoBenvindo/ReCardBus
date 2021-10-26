@@ -6,6 +6,7 @@ export const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     paddingTop: 128,
+    paddingHorizontal: 32,
   },
   textTitle: {
     width: "100%",

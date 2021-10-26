@@ -6,11 +6,11 @@ import { styles } from "./styles";
 
 export function Pix() {
   return (
-    <View>
+    <View style={styles.container}>
       <Text style={styles.title}>
         Código de barras
       </Text>
-      <View style={styles.container}>
+      <View style={styles.main}>
         <Image
           source={qrCode}
           style={{ width: 200, height: 200 }}
@@ -18,10 +18,10 @@ export function Pix() {
         <Text style={styles.number}>
           43.766.572/0001-99
         </Text>
-        <LongButton
-          title="Copiar chave"
-        />
       </View>
+      <LongButton
+        title="Copiar chave"
+      />
     </View>
   )
 }

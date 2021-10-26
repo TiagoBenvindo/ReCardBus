@@ -21,6 +21,5 @@ export async function useAuth(email, password) {
   //const [user] = usersJSON.filter(user => user.cpf === cpf && user.password === password)
   //console.log(user)
   const context = await login(email, password);
-  console.log('teste ' + context);
   return context;
 }

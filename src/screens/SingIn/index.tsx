@@ -16,7 +16,6 @@ export function SingIn() {
   async function login() {
     const user = await useAuth(email, password);
     if (user) {
-      console.log('Passando para a tela home' + user)
       navigation.navigate('Home', { userId: user })
     }
   }

@@ -4,10 +4,11 @@ import { theme } from "../../global/styles/theme";
 
 export const styles = StyleSheet.create({
   container: {
-    alignItems: "center",
+    flex: 1,
+    paddingHorizontal: 32,
   },
   header: {
-    width: '100%',
+    width: "100%",
     flexDirection: 'row',
     alignItems: 'center',
     marginTop: getStatusBarHeight() + 66,
@@ -17,10 +18,7 @@ export const styles = StyleSheet.create({
     fontSize: 32,
     fontFamily: theme.fonts.text700,
     color: theme.colors.gray100,
-    paddingHorizontal: 11,
-  },
-  content: {
-    flex: 1,
+    paddingLeft: 11,
   },
   textInput: {
     fontSize: 12,
@@ -29,9 +27,11 @@ export const styles = StyleSheet.create({
     marginBottom: 4,
   },
   inputGroup: {
+    width: "100%",
     marginBottom: 16,
   },
   form: {
+    width: "100%",
     marginBottom: 16,
   }
 })

@@ -60,7 +60,7 @@ export function Home({ route }: Props) {
     >
       <Background>
         <ScrollView>
-          <View style={styles.container}>
+          <View >
             <View>
               <View style={styles.presentation}>
                 <Text style={styles.greeting}>
@@ -125,11 +125,9 @@ export function Home({ route }: Props) {
                     </View>
                     : <></>
                 }
-
                 <LongButton
                   onPress={handleOpenPaymentsModal}
                   title="Recarregar"
-
                 />
               </View>
             </View>

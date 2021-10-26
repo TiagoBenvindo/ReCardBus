@@ -15,6 +15,5 @@ export const styles = StyleSheet.create({
   overlay: {
     flex: 1,
     backgroundColor: theme.colors.overlay,
-
   }
 })
