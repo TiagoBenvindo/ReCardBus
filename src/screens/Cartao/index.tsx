@@ -36,7 +36,7 @@ export function Cartao() {
         </View>
       </View>
       <LongButton
-        title="Copiar código"
+        title="Adicionar cartão"
       />
     </View>
   )

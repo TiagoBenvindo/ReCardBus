@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View, Text } from "react-native";
+import { View, Text, Alert } from "react-native";
 import { Background } from "../../components/Background";
 import { styles } from "./styles";
 import { LongInput } from "../../components/LongInput";
@@ -12,14 +12,18 @@ export function SingIn() {
   const navigation = useNavigation();
   const [email, setCpf] = useState('');
   const [password, setPassword] = useState('');
+  const { singIn, user } = useAuth();
 
-  async function login() {
-    const user = await useAuth(email, password);
-    if (user) {
-      navigation.navigate('Home', { userId: user })
+  async function loginUser() {
+    try {
+      await singIn(email, password);
+      if (user) {
+        navigation.navigate('Home');
+      }
+    } catch (error) {
+      console.log(error)
     }
   }
-
 
   return (
     <Background>
@@ -43,7 +47,7 @@ export function SingIn() {
           </View>
           <LongButton
             title='Entrar'
-            onPress={login}
+            onPress={loginUser}
           />
 
         </View>

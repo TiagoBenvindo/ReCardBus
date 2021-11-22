@@ -2,6 +2,7 @@ import React from 'react';
 import { StatusBar } from 'react-native';
 import { Background } from './src/components/Background';
 import { Routes } from './src/routes';
+import { AuthProvider } from './src/hook/auth';
 import { DMSans_400Regular, DMSans_700Bold, DMSans_500Medium, useFonts } from '@expo-google-fonts/dm-sans';
 import AppLoading from 'expo-app-loading';
 
@@ -24,7 +25,9 @@ export default function App() {
         backgroundColor='transparent'
         translucent={true}
       />
-      <Routes />
+      <AuthProvider>
+        <Routes />
+      </AuthProvider>
     </Background>
   );
 }
