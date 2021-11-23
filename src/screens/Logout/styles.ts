@@ -3,17 +3,20 @@ import { theme } from "../../global/styles/theme";
 
 export const styles = StyleSheet.create({
   container: {
-    width: 96,
-    height: 96,
-    justifyContent: 'center',
-    alignItems: 'center',
-    borderRadius: 6,
-
+    flex: 1,
   },
   title: {
-    fontSize: 12,
     fontFamily: theme.fonts.text500,
-    marginTop: 4,
-
+    fontSize: 20,
+    color: theme.colors.gray800,
+  },
+  form: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  middleButton: {
+    width: '45%',
   }
+
+
 })
