@@ -7,6 +7,7 @@ export const styles = StyleSheet.create({
     flex: 1,
     paddingTop: getStatusBarHeight() + 56,
     paddingHorizontal: 32,
+    marginBottom: 40,
   },
   presentation: {
     flexDirection: 'row',

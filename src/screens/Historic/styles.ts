@@ -19,20 +19,4 @@ export const styles = StyleSheet.create({
     fontSize: 32,
     marginLeft: 21,
   },
-  content: {
-    marginTop: 36,
-  },
-  headerTable: {
-    backgroundColor: theme.colors.green,
-    borderTopLeftRadius: 6,
-    borderTopRightRadius: 6,
-    fontFamily: theme.fonts.text700,
-    color: theme.colors.whiteLight,
-
-  },
-  headerTableText: {
-    fontFamily: theme.fonts.text700,
-    fontSize: 12,
-    color: theme.colors.whiteLight,
-  }
 })
