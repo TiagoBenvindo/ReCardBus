@@ -3,24 +3,26 @@ import { theme } from "../../global/styles/theme";
 
 export const styles = StyleSheet.create({
   container: {
-    flex: 1,
     borderRadius: 6,
     backgroundColor: theme.colors.whiteLight,
     width: "100%",
+    padding: 16,
     height: 96,
+  },
+  content: {
+    flexDirection: "row",
   },
   icon: {
     backgroundColor: theme.colors.greenLight,
     borderRadius: 6,
     marginRight: 16,
-  },
-  content: {
-    flexDirection: "row",
+    height: 64,
+    width: 64,
+    alignItems: "center",
+    justifyContent: "center",
   },
   header: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-    marginBottom: 4,
+    flex: 1,
   },
   id: {
     fontFamily: theme.fonts.text500,
@@ -39,6 +41,8 @@ export const styles = StyleSheet.create({
     marginBottom: 4
   },
   value: {
-
+    fontFamily: theme.fonts.text400,
+    fontSize: 12,
+    color: theme.colors.gray500,
   },
 })

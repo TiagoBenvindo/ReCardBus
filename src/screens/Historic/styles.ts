@@ -12,6 +12,7 @@ export const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     marginTop: getStatusBarHeight() + 66,
+    marginBottom: 40,
   },
   title: {
     color: theme.colors.greenDark,
@@ -19,4 +20,7 @@ export const styles = StyleSheet.create({
     fontSize: 32,
     marginLeft: 21,
   },
+  recharge: {
+    marginBottom: 20,
+  }
 })

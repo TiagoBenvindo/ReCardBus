@@ -26,9 +26,6 @@ export const styles = StyleSheet.create({
     backgroundColor: theme.colors.green,
     borderTopLeftRadius: 6,
     borderTopRightRadius: 6,
-    fontFamily: theme.fonts.text700,
-    color: theme.colors.whiteLight,
-
   },
   headerTableText: {
     fontFamily: theme.fonts.text700,
