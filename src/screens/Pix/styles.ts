@@ -18,7 +18,7 @@ export const styles = StyleSheet.create({
     marginTop: 8,
     fontFamily: theme.fonts.text500,
     fontSize: 14,
-    color: theme.colors.gray200,
+    color: theme.colors.gray700,
   },
 
 })

@@ -15,7 +15,7 @@ export const styles = StyleSheet.create({
     marginBottom: 50,
   },
   title: {
-    color: theme.colors.green100,
+    color: theme.colors.greenLight,
     fontFamily: theme.fonts.text700,
     fontSize: 32,
     marginLeft: 21,

@@ -14,12 +14,12 @@ export const styles = StyleSheet.create({
   greeting: {
     fontSize: 32,
     fontFamily: theme.fonts.text400,
-    color: theme.colors.gray100,
+    color: theme.colors.gray800,
   },
   name: {
     fontSize: 32,
     fontFamily: theme.fonts.text700,
-    color: theme.colors.green100,
+    color: theme.colors.greenDark,
     marginLeft: 8,
   },
   card: {
@@ -39,12 +39,12 @@ export const styles = StyleSheet.create({
   message: {
     fontFamily: theme.fonts.text500,
     fontSize: 18,
-    color: theme.colors.gray100,
+    color: theme.colors.gray800,
   },
   label: {
     fontFamily: theme.fonts.text500,
     fontSize: 12,
-    color: theme.colors.gray200,
+    color: theme.colors.gray700,
     marginBottom: 4,
   },
   payments: {
@@ -73,7 +73,7 @@ export const styles = StyleSheet.create({
   value: {
     fontSize: 12,
     fontFamily: theme.fonts.text700,
-    color: theme.colors.gray100,
+    color: theme.colors.gray800,
   },
   line: {
     borderRadius: 1,

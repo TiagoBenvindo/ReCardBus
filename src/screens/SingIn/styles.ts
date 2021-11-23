@@ -20,7 +20,7 @@ export const styles = StyleSheet.create({
   label: {
     fontSize: 13,
     fontFamily: theme.fonts.text500,
-    color: theme.colors.gray400,
+    color: theme.colors.gray500,
     marginBottom: 4,
   },
   sectionNewAccount: {
@@ -38,7 +38,7 @@ export const styles = StyleSheet.create({
     marginTop: 12,
     fontSize: 15,
     fontFamily: theme.fonts.text700,
-    color: theme.colors.green400,
+    color: theme.colors.green,
     textAlign: 'center',
   },
   inputGroup: {

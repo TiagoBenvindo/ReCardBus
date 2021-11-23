@@ -22,10 +22,10 @@ export function CardPayments({
   return (
     <RectButton
       {...rest}
-      style={[styles.container, { backgroundColor: checked ? theme.colors.green400 : theme.colors.whiteLight }]}
+      style={[styles.container, { backgroundColor: checked ? theme.colors.green : theme.colors.whiteLight }]}
     >
       <Icon />
-      <Text style={[styles.title, { color: checked ? theme.colors.whiteLight : theme.colors.gray400 }]}>
+      <Text style={[styles.title, { color: checked ? theme.colors.whiteLight : theme.colors.gray500 }]}>
         {title}
       </Text>
     </RectButton>
