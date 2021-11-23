@@ -50,7 +50,7 @@ export function TabBarRoutes() {
       screenOptions={({ route }) => ({
         headerShown: false,
         tabBarActiveTintColor: theme.colors.whiteLight,
-        tabBarStyle: { height: 64, backgroundColor: theme.colors.green100, paddingTop: 15 },
+        tabBarStyle: { height: 64, backgroundColor: theme.colors.greenDark, paddingTop: 15 },
         tabBarLabelStyle: { paddingBottom: 13, },
         tabBarIcon: ({ color, size }) => {
           let icon;

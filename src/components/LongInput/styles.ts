@@ -6,7 +6,7 @@ export const styles = StyleSheet.create({
     width: "100%",
     height: 52,
     backgroundColor: theme.colors.whiteLight,
-    color: theme.colors.gray100,
+    color: theme.colors.gray800,
     fontFamily: theme.fonts.text400,
     borderRadius: 6,
     borderWidth: 1,

@@ -17,13 +17,13 @@ export const styles = StyleSheet.create({
   textHeader: {
     fontSize: 32,
     fontFamily: theme.fonts.text700,
-    color: theme.colors.gray100,
+    color: theme.colors.gray800,
     paddingLeft: 11,
   },
   textInput: {
     fontSize: 12,
     fontFamily: theme.fonts.text400,
-    color: theme.colors.gray400,
+    color: theme.colors.gray500,
     marginBottom: 4,
   },
   inputGroup: {
