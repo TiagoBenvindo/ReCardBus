@@ -6,6 +6,7 @@ import { AddAccount } from "../screens/AddAccount";
 import { Home } from "../screens/Home";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { MaterialIcons, MaterialCommunityIcons } from "@expo/vector-icons";
+import { Logout } from "../screens/Logout";
 
 export type RootStackParamsList = {
   SingIn: undefined;
@@ -78,7 +79,7 @@ export function TabBarRoutes() {
       <Tab.Screen name="Início" component={Home} />
       <Tab.Screen name="Histórico" component={Home} />
       <Tab.Screen name="Tarifas" component={Home} />
-      <Tab.Screen name="Sair" component={Home} />
+      <Tab.Screen name="Sair" component={Logout} />
     </Tab.Navigator>
   )
 }
