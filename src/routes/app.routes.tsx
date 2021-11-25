@@ -9,6 +9,7 @@ import { MaterialIcons, MaterialCommunityIcons } from "@expo/vector-icons";
 import { Logout } from "../screens/Logout";
 import { Tariffs } from "../screens/Tariffs";
 import { Historic } from "../screens/Historic";
+import { Group } from "react-native";
 
 export type RootStackParamsList = {
   SingIn: undefined;

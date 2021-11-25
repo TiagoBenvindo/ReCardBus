@@ -30,7 +30,9 @@ export function Historic() {
             Histórico
           </Text>
         </View>
-        <Recharge />
+        <View style={styles.recharge}>
+          <Recharge />
+        </View>
       </View>
     </Background>
   )

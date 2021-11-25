@@ -17,11 +17,11 @@ export function Recharge() {
         </View>
         <View style={styles.header}>
           <Text style={styles.id}>#5450</Text>
-          <Text style={styles.data}>19/11/2021</Text>
-        </View>
-        <View>
           <Text style={styles.payments}>Cartão</Text>
           <Text style={styles.value}>R$39.90</Text>
+        </View>
+        <View>
+          <Text style={styles.data}>19/11/2021</Text>
         </View>
       </View>
     </View>
