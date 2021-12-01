@@ -1,482 +1,122 @@
 [
-  {
-    "price": 1.35,
-    "amount": 1
-  },
-  {
-    "price": 2.7,
-    "amount": 2
-  },
-  {
-    "price": 4.05,
-    "amount": 3
-  },
-  {
-    "price": 5.4,
-    "amount": 4
-  },
-  {
-    "price": 6.75,
-    "amount": 5
-  },
-  {
-    "price": 8.1,
-    "amount": 6
-  },
-  {
-    "price": 9.45,
-    "amount": 7
-  },
-  {
-    "price": 10.8,
-    "amount": 8
-  },
-  {
-    "price": 12.15,
-    "amount": 9
-  },
-  {
-    "price": 13.5,
-    "amount": 10
-  },
-  {
-    "price": 14.85,
-    "amount": 11
-  },
-  {
-    "price": 16.2,
-    "amount": 12
-  },
-  {
-    "price": 17.55,
-    "amount": 13
-  },
-  {
-    "price": 18.9,
-    "amount": 14
-  },
-  {
-    "price": 20.25,
-    "amount": 15
-  },
-  {
-    "price": 21.6,
-    "amount": 16
-  },
-  {
-    "price": 22.95,
-    "amount": 17
-  },
-  {
-    "price": 24.3,
-    "amount": 18
-  },
-  {
-    "price": 25.65,
-    "amount": 19
-  },
-  {
-    "price": 27,
-    "amount": 20
-  },
-  {
-    "price": 28.35,
-    "amount": 21
-  },
-  {
-    "price": 29.7,
-    "amount": 22
-  },
-  {
-    "price": 31.05,
-    "amount": 23
-  },
-  {
-    "price": 32.4,
-    "amount": 24
-  },
-  {
-    "price": 33.75,
-    "amount": 25
-  },
-  {
-    "price": 35.1,
-    "amount": 26
-  },
-  {
-    "price": 36.45,
-    "amount": 27
-  },
-  {
-    "price": 37.8,
-    "amount": 28
-  },
-  {
-    "price": 39.15,
-    "amount": 29
-  },
-  {
-    "price": 40.5,
-    "amount": 30
-  },
-  {
-    "price": 41.85,
-    "amount": 31
-  },
-  {
-    "price": 43.2,
-    "amount": 32
-  },
-  {
-    "price": 44.55,
-    "amount": 33
-  },
-  {
-    "price": 45.9,
-    "amount": 34
-  },
-  {
-    "price": 47.25,
-    "amount": 35
-  },
-  {
-    "price": 48.6,
-    "amount": 36
-  },
-  {
-    "price": 49.95,
-    "amount": 37
-  },
-  {
-    "price": 51.3,
-    "amount": 38
-  },
-  {
-    "price": 52.65,
-    "amount": 39
-  },
-  {
-    "price": 54,
-    "amount": 40
-  },
-  {
-    "price": 55.35,
-    "amount": 41
-  },
-  {
-    "price": 56.7,
-    "amount": 42
-  },
-  {
-    "price": 58.05,
-    "amount": 43
-  },
-  {
-    "price": 59.4,
-    "amount": 44
-  },
-  {
-    "price": 60.75,
-    "amount": 45
-  },
-  {
-    "price": 62.1,
-    "amount": 46
-  },
-  {
-    "price": 63.45,
-    "amount": 47
-  },
-  {
-    "price": 64.8,
-    "amount": 48
-  },
-  {
-    "price": 66.15,
-    "amount": 49
-  },
-  {
-    "price": 67.5,
-    "amount": 50
-  },
-  {
-    "price": 68.85,
-    "amount": 51
-  },
-  {
-    "price": 70.2,
-    "amount": 52
-  },
-  {
-    "price": 71.55,
-    "amount": 53
-  },
-  {
-    "price": 72.9,
-    "amount": 54
-  },
-  {
-    "price": 74.25,
-    "amount": 55
-  },
-  {
-    "price": 75.6,
-    "amount": 56
-  },
-  {
-    "price": 76.95,
-    "amount": 57
-  },
-  {
-    "price": 78.3,
-    "amount": 58
-  },
-  {
-    "price": 79.65,
-    "amount": 59
-  },
-  {
-    "price": 81,
-    "amount": 60
-  },
-  {
-    "price": 82.35,
-    "amount": 61
-  },
-  {
-    "price": 83.7,
-    "amount": 62
-  },
-  {
-    "price": 85.05,
-    "amount": 63
-  },
-  {
-    "price": 86.4,
-    "amount": 64
-  },
-  {
-    "price": 87.75,
-    "amount": 65
-  },
-  {
-    "price": 89.1,
-    "amount": 66
-  },
-  {
-    "price": 90.45,
-    "amount": 67
-  },
-  {
-    "price": 91.8,
-    "amount": 68
-  },
-  {
-    "price": 93.15,
-    "amount": 69
-  },
-  {
-    "price": 94.5,
-    "amount": 70
-  },
-  {
-    "price": 95.85,
-    "amount": 71
-  },
-  {
-    "price": 97.2,
-    "amount": 72
-  },
-  {
-    "price": 98.55,
-    "amount": 73
-  },
-  {
-    "price": 99.9,
-    "amount": 74
-  },
-  {
-    "price": 101.25,
-    "amount": 75
-  },
-  {
-    "price": 102.6,
-    "amount": 76
-  },
-  {
-    "price": 103.95,
-    "amount": 77
-  },
-  {
-    "price": 105.3,
-    "amount": 78
-  },
-  {
-    "price": 106.65,
-    "amount": 79
-  },
-  {
-    "price": 108,
-    "amount": 80
-  },
-  {
-    "price": 109.35,
-    "amount": 81
-  },
-  {
-    "price": 110.7,
-    "amount": 82
-  },
-  {
-    "price": 112.05,
-    "amount": 83
-  },
-  {
-    "price": 113.4,
-    "amount": 84
-  },
-  {
-    "price": 114.75,
-    "amount": 85
-  },
-  {
-    "price": 116.1,
-    "amount": 86
-  },
-  {
-    "price": 117.45,
-    "amount": 87
-  },
-  {
-    "price": 118.8,
-    "amount": 88
-  },
-  {
-    "price": 120.15,
-    "amount": 89
-  },
-  {
-    "price": 121.5,
-    "amount": 90
-  },
-  {
-    "price": 122.85,
-    "amount": 91
-  },
-  {
-    "price": 124.2,
-    "amount": 92
-  },
-  {
-    "price": 125.55,
-    "amount": 93
-  },
-  {
-    "price": 126.9,
-    "amount": 94
-  },
-  {
-    "price": 128.25,
-    "amount": 95
-  },
-  {
-    "price": 129.6,
-    "amount": 96
-  },
-  {
-    "price": 130.95,
-    "amount": 97
-  },
-  {
-    "price": 132.3,
-    "amount": 98
-  },
-  {
-    "price": 133.65,
-    "amount": 99
-  },
-  {
-    "price": 135.00,
-    "amount": 100
-  },
-  {
-    "price": 136.35,
-    "amount": 101
-  },
-  {
-    "price": 137.7,
-    "amount": 102
-  },
-  {
-    "price": 139.05,
-    "amount": 103
-  },
-  {
-    "price": 140.4,
-    "amount": 104
-  },
-  {
-    "price": 141.75,
-    "amount": 105
-  },
-  {
-    "price": 143.1,
-    "amount": 106
-  },
-  {
-    "price": 144.45,
-    "amount": 107
-  },
-  {
-    "price": 145.8,
-    "amount": 108
-  },
-  {
-    "price": 147.15,
-    "amount": 109
-  },
-  {
-    "price": 148.5,
-    "amount": 110
-  },
-  {
-    "price": 149.85,
-    "amount": 111
-  },
-  {
-    "price": 151.2,
-    "amount": 112
-  },
-  {
-    "price": 152.55,
-    "amount": 113
-  },
-  {
-    "price": 153.9,
-    "amount": 114
-  },
-  {
-    "price": 155.25,
-    "amount": 115
-  },
-  {
-    "price": 156.6,
-    "amount": 116
-  },
-  {
-    "price": 157.95,
-    "amount": 117
-  },
-  {
-    "price": 159.3,
-    "amount": 118
-  },
-  {
-    "price": 160.65,
-    "amount": 119
-  },
-  {
-    "price": 162.00,
-    "amount": 120
-  }
+  { "price": 1.35, "amount": 1 },
+  { "price": 2.7, "amount": 2 },
+  { "price": 4.05, "amount": 3 },
+  { "price": 5.4, "amount": 4 },
+  { "price": 6.75, "amount": 5 },
+  { "price": 8.1, "amount": 6 },
+  { "price": 9.45, "amount": 7 },
+  { "price": 10.8, "amount": 8 },
+  { "price": 12.15, "amount": 9 },
+  { "price": 13.5, "amount": 10 },
+  { "price": 14.85, "amount": 11 },
+  { "price": 16.2, "amount": 12 },
+  { "price": 17.55, "amount": 13 },
+  { "price": 18.9, "amount": 14 },
+  { "price": 20.25, "amount": 15 },
+  { "price": 21.6, "amount": 16 },
+  { "price": 22.95, "amount": 17 },
+  { "price": 24.3, "amount": 18 },
+  { "price": 25.65, "amount": 19 },
+  { "price": 27, "amount": 20 },
+  { "price": 28.35, "amount": 21 },
+  { "price": 29.7, "amount": 22 },
+  { "price": 31.05, "amount": 23 },
+  { "price": 32.4, "amount": 24 },
+  { "price": 33.75, "amount": 25 },
+  { "price": 35.1, "amount": 26 },
+  { "price": 36.45, "amount": 27 },
+  { "price": 37.8, "amount": 28 },
+  { "price": 39.15, "amount": 29 },
+  { "price": 40.5, "amount": 30 },
+  { "price": 41.85, "amount": 31 },
+  { "price": 43.2, "amount": 32 },
+  { "price": 44.55, "amount": 33 },
+  { "price": 45.9, "amount": 34 },
+  { "price": 47.25, "amount": 35 },
+  { "price": 48.6, "amount": 36 },
+  { "price": 49.95, "amount": 37 },
+  { "price": 51.3, "amount": 38 },
+  { "price": 52.65, "amount": 39 },
+  { "price": 54, "amount": 40 },
+  { "price": 55.35, "amount": 41 },
+  { "price": 56.7, "amount": 42 },
+  { "price": 58.05, "amount": 43 },
+  { "price": 59.4, "amount": 44 },
+  { "price": 60.75, "amount": 45 },
+  { "price": 62.1, "amount": 46 },
+  { "price": 63.45, "amount": 47 },
+  { "price": 64.8, "amount": 48 },
+  { "price": 66.15, "amount": 49 },
+  { "price": 67.5, "amount": 50 },
+  { "price": 68.85, "amount": 51 },
+  { "price": 70.2, "amount": 52 },
+  { "price": 71.55, "amount": 53 },
+  { "price": 72.9, "amount": 54 },
+  { "price": 74.25, "amount": 55 },
+  { "price": 75.6, "amount": 56 },
+  { "price": 76.95, "amount": 57 },
+  { "price": 78.3, "amount": 58 },
+  { "price": 79.65, "amount": 59 },
+  { "price": 81, "amount": 60 },
+  { "price": 82.35, "amount": 61 },
+  { "price": 83.7, "amount": 62 },
+  { "price": 85.05, "amount": 63 },
+  { "price": 86.4, "amount": 64 },
+  { "price": 87.75, "amount": 65 },
+  { "price": 89.1, "amount": 66 },
+  { "price": 90.45, "amount": 67 },
+  { "price": 91.8, "amount": 68 },
+  { "price": 93.15, "amount": 69 },
+  { "price": 94.5, "amount": 70 },
+  { "price": 95.85, "amount": 71 },
+  { "price": 97.2, "amount": 72 },
+  { "price": 98.55, "amount": 73 },
+  { "price": 99.9, "amount": 74 },
+  { "price": 101.25, "amount": 75 },
+  { "price": 102.6, "amount": 76 },
+  { "price": 103.95, "amount": 77 },
+  { "price": 105.3, "amount": 78 },
+  { "price": 106.65, "amount": 79 },
+  { "price": 108, "amount": 80 },
+  { "price": 109.35, "amount": 81 },
+  { "price": 110.7, "amount": 82 },
+  { "price": 112.05, "amount": 83 },
+  { "price": 113.4, "amount": 84 },
+  { "price": 114.75, "amount": 85 },
+  { "price": 116.1, "amount": 86 },
+  { "price": 117.45, "amount": 87 },
+  { "price": 118.8, "amount": 88 },
+  { "price": 120.15, "amount": 89 },
+  { "price": 121.5, "amount": 90 },
+  { "price": 122.85, "amount": 91 },
+  { "price": 124.2, "amount": 92 },
+  { "price": 125.55, "amount": 93 },
+  { "price": 126.9, "amount": 94 },
+  { "price": 128.25, "amount": 95 },
+  { "price": 129.6, "amount": 96 },
+  { "price": 130.95, "amount": 97 },
+  { "price": 132.3, "amount": 98 },
+  { "price": 133.65, "amount": 99 },
+  { "price": 135.00, "amount": 100 },
+  { "price": 136.35, "amount": 101 },
+  { "price": 137.7, "amount": 102 },
+  { "price": 139.05, "amount": 103 },
+  { "price": 140.4, "amount": 104 },
+  { "price": 141.75, "amount": 105 },
+  { "price": 143.1, "amount": 106 },
+  { "price": 144.45, "amount": 107 },
+  { "price": 145.8, "amount": 108 },
+  { "price": 147.15, "amount": 109 },
+  { "price": 148.5, "amount": 110 },
+  { "price": 149.85, "amount": 111 },
+  { "price": 151.2, "amount": 112 },
+  { "price": 152.55, "amount": 113 },
+  { "price": 153.9, "amount": 114 },
+  { "price": 155.25, "amount": 115 },
+  { "price": 156.6, "amount": 116 },
+  { "price": 157.95, "amount": 117 },
+  { "price": 159.3, "amount": 118 },
+  { "price": 160.65, "amount": 119 },
+  { "price": 162.00, "amount": 120 }
 ]

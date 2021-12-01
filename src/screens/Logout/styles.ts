@@ -20,7 +20,6 @@ export const styles = StyleSheet.create({
     width: '45%',
   },
   button: {
-
     height: 56,
     backgroundColor: theme.colors.whiteLight,
     borderRadius: 8,
