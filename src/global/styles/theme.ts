@@ -4,20 +4,33 @@ export const theme = {
     whiteDefault: '#F2F7F4',
     whiteDark: '#E9F0EB',
 
-    green100: '#5DF59C',
-    green200: '#43E085',
-    green300: '#2ECD70',
-    green400: '#1AB85B',
-    green500: '#0AA349',
+    greenLight: '#BEDDC3',
+    green: '#4EA45D',
+    greenDark: '#1C3B22',
 
-    gray100: '#2A2B2B',
-    gray200: '#323332',
-    gray300: '#393B3A',
-    gray400: '#404241',
-    gray500: '#474A48',
-    gray600: '#4E5250',
-    gray700: '#555957',
-    gray800: '#5E6361',
+    redLight: '#DEBFBF',
+    red: '#A44E4E',
+    redDark: '#3B1C1C',
 
+    yellowLight: '#D9CC9E',
+    yellow: '#D2AE2E',
+    yellowDark: '#534923',
+
+    gray100: '#5E6361',
+    gray200: '#555957',
+    gray300: '#4E5250',
+    gray400: '#474A48',
+    gray500: '#404241',
+    gray600: '#393B3A',
+    gray700: '#323332',
+    gray800: '#2A2B2B',
+
+    overlay: 'rgba(0,0,0,0.4)'
+  },
+
+  fonts: {
+    text400: 'DMSans_400Regular',
+    text500: 'DMSans_500Medium',
+    text700: 'DMSans_700Bold',
   }
 }
