@@ -8,14 +8,15 @@ import { BorderlessButton } from "react-native-gesture-handler";
 import { Background } from "../../components/Background";
 import { Recharge } from "../../components/Recharge";
 import { theme } from "../../global/styles/theme";
-import { api } from '../../services/api'
 import { styles } from "./styles";
+import { api } from "../../services/api";
 
 interface Recharge {
   id: string
   priceTotal: number
   date: { _seconds: number, _nanoseconds: number },
   amountTicket: number
+  payment: string
 }
 
 interface ResponseData {
@@ -34,9 +35,10 @@ export function Historic() {
   useEffect(() => {
     async function loadRecharges() {
       let response: AxiosResponse
-
+      
       try {
-        response = await api.get('recharges/8e55091')
+        response = await api.get('recharges/8e55091e-fea1-4b0e-aab3-7e3298a4becd')
+
         const { data, status } = response.data as ResponseData
 
         if (status === 'error') throw new Error()
