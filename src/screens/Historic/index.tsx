@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Text, View, FlatList, Alert } from "react-native";
-import { AxiosResponse } from 'axios'
+import { AxiosResponse } from "axios";
 import { Feather } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
 import { BorderlessButton } from "react-native-gesture-handler";
@@ -12,47 +12,49 @@ import { styles } from "./styles";
 import { api } from "../../services/api";
 
 interface Recharge {
-  id: string
-  priceTotal: number
-  date: { _seconds: number, _nanoseconds: number },
-  amountTicket: number
-  payment: string
+  id: string;
+  priceTotal: number;
+  date: { _seconds: number; _nanoseconds: number };
+  amountTicket: number;
+  payment: string;
 }
 
 interface ResponseData {
-  status: string
-  data: Recharge[]
+  status: string;
+  data: Recharge[];
 }
 
 export function Historic() {
   const navigation = useNavigation();
-  const [recharges, setRecharges] = useState<Recharge[]>([])
+  const [recharges, setRecharges] = useState<Recharge[]>([]);
 
   function handleGoHome() {
-    navigation.navigate('Home');
+    navigation.navigate("Home");
   }
 
   useEffect(() => {
     async function loadRecharges() {
-      let response: AxiosResponse
-      
+      let response: AxiosResponse;
+
       try {
-        response = await api.get('recharges/8e55091e-fea1-4b0e-aab3-7e3298a4becd')
+        response = await api.get(
+          "recharges/8e55091e-fea1-4b0e-aab3-7e3298a4becd"
+        );
 
-        const { data, status } = response.data as ResponseData
+        const { data, status } = response.data as ResponseData;
 
-        if (status === 'error') throw new Error()
+        if (status === "error") throw new Error();
 
-        setRecharges(data)
+        setRecharges(data);
       } catch {
-        const messageError = 'Erro ao carregar as recargas vindas da API'
-        console.error(messageError)
-        Alert.alert(messageError)
+        const messageError = "Erro ao carregar as recargas vindas da API";
+        console.error(messageError);
+        Alert.alert(messageError);
       }
     }
 
-    loadRecharges()
-  }, [])
+    loadRecharges();
+  }, []);
 
   return (
     <Background>
@@ -60,27 +62,24 @@ export function Historic() {
         <View style={styles.header}>
           <BorderlessButton onPress={handleGoHome}>
             <Feather
-              name='arrow-left'
+              name="arrow-left"
               size={32}
               color={theme.colors.greenDark}
             />
           </BorderlessButton>
-          <Text style={styles.title}>
-            Histórico
-          </Text>
+          <Text style={styles.title}>Histórico</Text>
         </View>
-        <View style={styles.recharge}>
-          {recharges.map(recharge => (
+        {recharges.map((recharge) => (
+          <View key={recharge.id} style={styles.recharge}>
             <Recharge
-              key={recharge.id}
               id={recharge.id}
-              payment="Cartão"
+              payment={recharge.payment}
               value={recharge.priceTotal}
               date={recharge.date._seconds}
             />
-          ))}
-        </View>
+          </View>
+        ))}
       </View>
     </Background>
-  )
+  );
 }
