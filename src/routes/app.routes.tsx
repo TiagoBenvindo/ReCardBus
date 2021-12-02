@@ -10,11 +10,13 @@ import { Logout } from "../screens/Logout";
 import { Tariffs } from "../screens/Tariffs";
 import { Historic } from "../screens/Historic";
 import { Group } from "react-native";
+import { ChooseCard } from "../screens/ChooseCard";
 
 export type RootStackParamsList = {
   SingIn: undefined;
   Home: { userId: string };
   AddAccount: undefined;
+  ChooseCard: undefined;
 }
 
 const { Navigator, Screen } = createStackNavigator<RootStackParamsList>();
@@ -30,6 +32,10 @@ export function AppRoutes() {
         }
       }}
     >
+      <Screen
+        name='ChooseCard'
+        component={ChooseCard}
+      />
       <Screen
         name='Home'
         component={TabBarRoutes}

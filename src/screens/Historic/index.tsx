@@ -36,7 +36,7 @@ export function Historic() {
       let response: AxiosResponse
 
       try {
-        response = await api.get('recharges/8e55091efea14b0eaab37e3298a4becd')
+        response = await api.get('recharges/8e55091')
         const { data, status } = response.data as ResponseData
 
         if (status === 'error') throw new Error()
